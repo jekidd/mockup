@@ -34,6 +34,7 @@ header img {
 h2 {
 	color: rgb(187, 187, 187);
 	font-size: 30px;
+	margin-bottom: 20px;
 }
 .last {
 	margin-right: 0;
@@ -67,11 +68,16 @@ a:hover, a:active {
 		width: 970px;
 	}
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
 	header img {
+		width: 80px;
+		height: 80px;
 		float: none;
 	}
 	header {
 		text-align: center;
+	}
+	.name {
+		font-size: 50px;
 	}
 }
